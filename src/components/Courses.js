@@ -8,7 +8,7 @@ return(
    <div className="flex-container">
    <img className="arrowOne" src="https://cdn-icons-png.flaticon.com/128/318/318476.png" alt="Arrow"/>
     <div className="card">
-
+     <img src="" alt='brain'/>
      <h1> Athwas </h1>
      <p>class 10th</p>
      <p>60+ lactures</p>
