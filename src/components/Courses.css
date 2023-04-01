@@ -1,0 +1,49 @@
+.flex-container{
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 20px;
+  text-align: center;
+  padding: 80px;
+  height: 250px;
+  border-radius: 08px;
+  box-shadow: 2px 2px 10px 2px  #888888;
+}
+.paragraph {
+  inline-size: 190px;
+  overflow-wrap: break-word;
+}
+
+.arrowOne {
+  width: 40px;
+  height: 40px;
+  transform: rotateZ(180deg);
+}
+.arrowSecond {
+  width: 40px;
+  height: 40px;
+}
+.button {
+ background-color: rgb(249, 238, 183);
+  border: rgb(238, 200, 13) 1px solid;
+  color: rgb(244, 174, 11);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 800px) {
+  .arrowOne {
+    display: none;
+  }
+
+  .arrowSecond {
+    display: none;
+  }
+}
